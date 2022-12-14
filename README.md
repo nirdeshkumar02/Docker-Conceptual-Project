@@ -9,6 +9,9 @@ All components are docker-based
 
 ### With Docker
 
+#### Application Workflow During Development
+![Dev-Workflow](https://github.com/nirdeshkumar02/Docker-Conceptual-Project/blob/master/Application_Workflow_During_Development.png)
+
 #### To start the application
 
 Step 1: Create docker network
@@ -42,6 +45,9 @@ Step 7: Access you nodejs application UI from browser
     http://localhost:3000
 
 ### With Docker Compose
+
+#### Application Workflow During Containerization
+![Dev-Workflow](https://github.com/nirdeshkumar02/Docker-Conceptual-Project/blob/master/Application_Workflow_During_Containerization.png)
 
 Now, You are going to use application inside docker container using docker compose, For that You don't need to provide the localhost mongo url. You can Replace it with the name of container name which will run mongodb in container for you. 
 For Refrence take a look in server.js file. 
